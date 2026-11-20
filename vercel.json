@@ -1,0 +1,5 @@
+{
+  "buildCommand": "node scripts/export-html.mjs && mkdir -p vercel-dist && cp -- *.html vercel-dist/ && cp -R public vercel-dist/",
+  "outputDirectory": "vercel-dist",
+  "framework": null
+}
