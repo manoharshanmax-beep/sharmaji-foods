@@ -1,0 +1,6 @@
+dist/
+node_modules/
+outputs/
+.dev.vars*
+.env*
+*.sqlite*
